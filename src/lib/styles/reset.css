@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Geologica Variable", sans-serif;
+}
+.confirmDialog .MuiDialog-paper {
+  max-width: 300px;
+}
+.confirmDialog .MuiDialogActions-root {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 12px;
+  overflow: hidden;
+  gap: 8px;
+}
+
+.confirmDialog .MuiDialogActions-root button {
+  border-radius: 12px;
+  margin: 0;
+  height: 45px;
+  background: transparent;
+  color: #000;
+  font-weight: 500 !important;
+  font-size: 14px;
+  transition: 0ms;
+}
+
+.confirmDialog .MuiDialogActions-root button:first-of-type {
+  background-color: #e2e2e2 !important;
+}
+
+.confirmDialog .MuiDialogActions-root button:first-of-type:hover {
+  background-color: #c4c4c4 !important;
+}
+
+.confirmDialog .MuiDialogActions-root button:last-of-type {
+  background: #98ba5b !important;
+  color: #fff !important;
+}
+
+.confirmDialog .MuiDialogActions-root button:last-of-type:hover {
+  background: #74923b !important;
+}
+
+.confirmDialog .MuiTypography-h6 {
+  font: 700 24px "Geologica Variable", sans-serif;
+  line-height: 22px;
+}
+
+.confirmDialog .MuiTypography-body1 {
+  font: 300 16px "Geologica Variable", sans-serif;
+  line-height: 20px;
+  color: #000;
+}
+
+@media (max-width: 900px) {
+  .confirmDialog .MuiDialogActions-root button {
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .confirmDialog .MuiTypography-h6 {
+    font: 600 16px "Geologica Variable", sans-serif;
+    line-height: 18px;
+  }
+
+  .confirmDialog .MuiTypography-body1 {
+    font: 400 12px "Geologica Variable", sans-serif;
+    line-height: 18px;
+  }
+}
+
+.text-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-1 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
